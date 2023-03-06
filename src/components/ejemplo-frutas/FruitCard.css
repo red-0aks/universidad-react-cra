@@ -1,0 +1,25 @@
+.fruit-card {
+   width: 70%;
+   gap: 0.5rem;
+   display: flex;
+   margin: 1em auto;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border: 1px solid black;
+   margin-bottom: 1em;
+   border-radius: 0.5em;
+   padding: 1em;
+   background: #3f5580;
+   color: #fff;
+   transition: all 400ms ease-out;
+}
+
+.fruit-card-active {
+   background: linear-gradient(90deg, #4b6cb7, #182848);
+   color: #ffff;
+}
+
+.fruit-card > h2 {
+   color: #00a5f2;
+}
